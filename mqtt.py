@@ -13,8 +13,8 @@ webrepl.start()
 gc.collect()
 
 #Wi-Fi configuration
-ssid =  "IOEPC" #wifi ssid
-password = "" #wifi password
+ssid =  "abcdef" #wifi ssid
+password = "xyz" #wifi password
 
 # Function to connect to Wi-Fi
 def connect_wifi():
@@ -35,7 +35,7 @@ print("Connected to Wi-Fi")
 connect_wifi()
 
 #define mqtt broker and topic
-broker_address= 192.168.1.119 # IP address of the device running the mosquitto server
+broker_address= 000.000.00.00 # IP address of the device running the mosquitto server
 topic = "bot"
 
 #callback when a connection is established.
